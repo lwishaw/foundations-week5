@@ -1,0 +1,179 @@
+/*redesign portfolio
+• center headline
+• redo nav, change to color on hover, click on;
+• 6 images with clickable pages
+• */
+
+body {
+/*  change background and set global font family*/
+  /*font: Times New Roman;*/
+  font-family:'Raleway', sans-serif;
+  width: auto;
+}
+
+/*header img {
+  width: 80px;
+  float: left;
+}*/
+header h1 {
+/*  Make bigger and color, san serif*/
+  color: black;      
+  font-size: 24px;
+  float:left;
+  text-align: center;
+  width: auto;
+  margin: 40px 20px 80px;
+  padding: 20px;
+  border: 3px solid #663399;
+  line-height: 3px;
+
+}
+
+
+nav a{
+/*
+    color, remove bullets, border, float the elements, center content in links, san serif, width, font color, san serif font family 
+  float: left;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 75px;  
+  border-right: 3px solid #663399;
+  line-height: 3px;
+*/
+  
+  display:block;
+  text-align: right;
+  text-decoration: none;
+  color: black; 
+  margin: 20px;
+  font-size: 15px;
+}
+article {
+  clear:both;
+  font-size: 80px;
+  text-align: center;
+  margin: 1px 60px;
+}
+
+a:visited {
+  color: #663399;
+}
+
+a:hover {
+    color: #FCFF00;
+}
+
+.period {
+/*  Make bigger and color, san serif*/
+  color: #8267aa;
+  
+}
+
+.float {
+/*6 images float 2 rows of 3*/ 
+  margin: 40px 100px 100px;
+  clear:both;
+  width:800px;
+	
+}
+
+
+.top1,.top2{
+  width: 150px;
+  height: 200px;
+  float: left;
+  padding:10px 40px;
+  text-align: center;
+}
+.top3 {
+  width: 150px;
+  height: 120px;
+  float: left;
+  padding:60px 40px 0px;
+  text-align: center;
+}
+
+#top1words a {
+  clear: both;
+}
+
+#top1words a, #top2words a, #top3words a{
+  width: 150px;
+  padding:10px 40px;
+  float: left;
+  text-align: center;
+  text-decoration:none;
+  color: black;
+  font-size: 18px;
+}
+
+#top4words a {
+  clear: both;
+}
+#top4words a, #top5words a, #top6words a{
+  width: 150px;
+  padding:10px 40px;
+  float: left;
+  text-align: center;
+  text-decoration:none;
+  color: black; 
+  font-size: 18px;
+}
+
+
+.top4 {
+  clear: both;
+}
+.top4, .top6 {
+  width: 150px;
+  height: 120px;
+  float: left;
+  padding:60px 40px 0px;
+  text-align: center;
+}
+.top5 {
+  width: 150px;
+  height: 200px;
+  float: left;
+  padding:10px 40px;
+  text-align: center;
+}
+
+.text {
+  clear: both;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 40px;
+  width: auto;
+  line-height: 175%
+}
+.text2 {
+  clear: both;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 40px;
+  width: auto;
+  line-height: 175%
+}
+.fa fa-asterisk, aside h3, aside p {
+  text-align: center; 
+  line-height: 175%;
+}
+/*section {
+  clear: both;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+}*/
+
+hr {
+  clear: both;
+  margin-top: 80px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
